@@ -1,0 +1,198 @@
+                      
+.form-control{
+    height: 40px;
+    box-shadow: none;
+    /*    color: #969fa4;*/
+}
+.form-control:focus{
+    border-color: #5cb85c;
+}
+.form-control, .btn{        
+    border-radius: 3px;
+}
+.signup-form{
+    /*        width: 400px;*/
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.signup-form h2{
+    color: #636363;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+}
+.signup-form h2:before, .signup-form h2:after{
+    content: "";
+    height: 2px;
+    width: 30%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}	
+.signup-form h2:before{
+    left: 0;
+}
+.signup-form h2:after{
+    right: 0;
+}
+.signup-form .hint-text{
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.signup-form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form input[type="checkbox"]{
+    margin-top: 3px;
+}
+.signup-form .btn{        
+    font-size: 16px;
+    font-weight: bold;		
+    min-width: 140px;
+    outline: none !important;
+}
+.signup-form .row div:first-child{
+    padding-right: 10px;
+}
+.signup-form .row div:last-child{
+    padding-left: 10px;
+}    	
+.signup-form a{
+    color: #fff;
+    text-decoration: underline;
+}
+.signup-form a:hover{
+    text-decoration: none;
+}
+.signup-form form a{
+    color: #5cb85c;
+    text-decoration: none;
+}	
+.signup-form form a:hover{
+    text-decoration: underline;
+}  
+
+#dataTable{
+    font-size: 14px;
+}
+.border-right-1{
+    border-right: 1px solid #CCC;
+}
+.border-bottom-1{
+    border-bottom: 1px solid #CCC;
+}
+.bold{
+    font-weight: bold;
+}
+.width-140{
+    width: 140px;
+}
+.border-top-1{
+    border-top: 1px solid #CCC;
+}
+.color-red{
+    color: red;
+}
+.color-green{
+    color: green;
+}
+.color-white{
+    color: white;
+}
+.mt-36{
+    margin-top: 36px;
+}
+.width-40{
+    width: 40px;
+}
+.width-100{
+    width: 100px;
+}
+.width-117{
+    width: 117px;
+}
+.border-left-1{
+    border-left: 1px solid #CCC;
+}
+.border-1{
+    border: 1px solid #CCC;
+}
+.mb-17{
+    margin-bottom: 17px;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.pb-16{
+    padding-bottom: 16px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.font-size-12{
+    font-size: 12px !important;
+}
+.font-size-13{
+    font-size: 13px !important;
+}
+.height-30{
+    height: 30px;
+}
+.height-35{
+    height: 35px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-28{
+    margin-top: 28px;
+}
+.hidden{
+    display: none;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-24{
+    margin-top: 24px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.border-radius-10{
+    border-radius: 10px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.active-btn{
+    background-color: blue !important;
+    border: 1px solid blue;
+}
+#preloader { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 9999999;}
+#status { width: 400px; height: 300px;  position: absolute; 
+          left: 55%;  top: 56%; 
+          background-repeat: no-repeat; 
+          background-position: center;
+          font-size:18px; 
+          font-weight:bold; 
+          color:#0d7bff;  
+          margin: -100px 0 0 -100px;}
+
+.datepicker{
+    /*    border: 1px solid #afa8a8;
+        border-radius: 0px;*/
+}
